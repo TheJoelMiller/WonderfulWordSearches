@@ -74,11 +74,21 @@ footer {
 .word-search-wrapper {
   display: flex;
   flex-wrap: wrap;
+  max-width: 800px;
 }
 
 .word-search-box {
   padding: 50px;
   min-width: 500px;
+}
+
+.word-search-list-wrapper {
+  flex-grow: 1;
+}
+
+.word {
+  margin: auto;
+  width: 50%;
 }
 
 .word-search-list {
