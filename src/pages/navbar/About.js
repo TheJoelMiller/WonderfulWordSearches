@@ -1,10 +1,12 @@
 import React from 'react';
+import selfPicture from '../../JMiller.png';
 const About = () =>{
   return (
     <div className = "about">
       <h3>About</h3>
       <div>
-        My name is Joel Miller and I'm a student at Code Kentucky.
+      <img src= {selfPicture} alt='Self Picture'/>
+        <p>My name is Joel Miller. I am a student at Code Kentucky and I enjoy computer programming.</p>
       </div>
     </div>
   );
